@@ -20,6 +20,12 @@
         </classes>
     </test>
 
+    <test name="Mobile Tests">
+        <classes>
+            <class name="com.example.Tests.mobile.TestYoutube"></class>
+        </classes>
+    </test>
+
     <listeners>
         <listener class-name="org.testng.reporters.JUnitXMLReporter" />
     </listeners>

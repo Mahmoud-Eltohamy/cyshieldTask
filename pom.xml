@@ -28,7 +28,7 @@
     <selenium-version>4.24.0</selenium-version>
     <opencsv-version>5.9</opencsv-version>
     <jsonpath-version>2.9.0</jsonpath-version>
-    <appium-version>8.3.0</appium-version>
+    <appium-version>9.3.0</appium-version>
   </properties>
 
   <dependencies>
