@@ -1,1 +1,3 @@
-# cyshieldTask
+- run tests: mvn clean -DxmlFile=testng.xml test
+- generate report: allure generate --clean
+- open report: allure open 

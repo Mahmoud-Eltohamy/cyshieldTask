@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-04T03:18:25 EEST" name="UserTests" finished-at="2024-09-04T03:19:08 EEST" duration-ms="42615">
+    <groups>
+    </groups>
+    <test started-at="2024-09-04T03:18:25 EEST" name="API Tests" finished-at="2024-09-04T03:18:30 EEST" duration-ms="4214">
+      <class name="com.example.Tests.api.UserTests">
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:26 EEST" name="testCreateUser" data-provider="user-data" finished-at="2024-09-04T03:18:27 EEST" duration-ms="1720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[morpheus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zion resident]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:27 EEST" name="testCreateUser" data-provider="user-data" finished-at="2024-09-04T03:18:28 EEST" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karyn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Coordinator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testListUsersInPageNo2(int,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:28 EEST" name="testListUsersInPageNo2" data-provider="users-page-2" finished-at="2024-09-04T03:18:28 EEST" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[michael.lawson@reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUsersInPageNo2 -->
+        <test-method signature="testListUsersInPageNo2(int,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:28 EEST" name="testListUsersInPageNo2" data-provider="users-page-2" finished-at="2024-09-04T03:18:28 EEST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lindsay.ferguson@reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUsersInPageNo2 -->
+        <test-method signature="testListUsersInPageNo2(int,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:28 EEST" name="testListUsersInPageNo2" data-provider="users-page-2" finished-at="2024-09-04T03:18:28 EEST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tobias.funke@reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUsersInPageNo2 -->
+        <test-method signature="testListUsersInPageNo2(int,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:28 EEST" name="testListUsersInPageNo2" data-provider="users-page-2" finished-at="2024-09-04T03:18:29 EEST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[byron.fields@reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUsersInPageNo2 -->
+        <test-method signature="testListUsersInPageNo2(int,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:29 EEST" name="testListUsersInPageNo2" data-provider="users-page-2" finished-at="2024-09-04T03:18:29 EEST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[george.edwards@reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUsersInPageNo2 -->
+        <test-method signature="testListUsersInPageNo2(int,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:29 EEST" name="testListUsersInPageNo2" data-provider="users-page-2" finished-at="2024-09-04T03:18:29 EEST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rachel.howell@reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUsersInPageNo2 -->
+        <test-method signature="testUpdateUser(java.lang.String,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:29 EEST" name="testUpdateUser" data-provider="user-data" finished-at="2024-09-04T03:18:29 EEST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[morpheus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zion resident]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testUpdateUser(java.lang.String,java.lang.String)[pri:0, instance:com.example.Tests.api.UserTests@50f6ac94]" started-at="2024-09-04T03:18:29 EEST" name="testUpdateUser" data-provider="user-data" finished-at="2024-09-04T03:18:30 EEST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Araceli]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Strategist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- com.example.Tests.api.UserTests -->
+    </test> <!-- API Tests -->
+    <test started-at="2024-09-04T03:18:30 EEST" name="Web Tests - Fireforx" finished-at="2024-09-04T03:18:55 EEST" duration-ms="25448">
+      <class name="com.example.Tests.web.RegistrationPageTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:30 EEST" name="setUp" finished-at="2024-09-04T03:18:33 EEST" duration-ms="2841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:33 EEST" name="beforeClass" finished-at="2024-09-04T03:18:33 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeEachTestcase()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:33 EEST" name="beforeEachTestcase" finished-at="2024-09-04T03:18:34 EEST" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestcase -->
+        <test-method signature="checkVisibilityOfRegistrationFormElements()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:34 EEST" name="checkVisibilityOfRegistrationFormElements" finished-at="2024-09-04T03:18:34 EEST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVisibilityOfRegistrationFormElements -->
+        <test-method is-config="true" signature="beforeEachTestcase()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:34 EEST" name="beforeEachTestcase" finished-at="2024-09-04T03:18:35 EEST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestcase -->
+        <test-method signature="testRegistrationWithInValidData()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:35 EEST" name="testRegistrationWithInValidData" finished-at="2024-09-04T03:18:38 EEST" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithInValidData -->
+        <test-method is-config="true" signature="beforeEachTestcase()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:38 EEST" name="beforeEachTestcase" finished-at="2024-09-04T03:18:39 EEST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestcase -->
+        <test-method signature="testRegistrationWithValidData()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:39 EEST" name="testRegistrationWithValidData" finished-at="2024-09-04T03:18:45 EEST" duration-ms="5970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@6aa8e115]" started-at="2024-09-04T03:18:45 EEST" name="tearDown" finished-at="2024-09-04T03:18:55 EEST" duration-ms="10550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.web.RegistrationPageTests -->
+    </test> <!-- Web Tests - Fireforx -->
+    <test started-at="2024-09-04T03:18:55 EEST" name="Web Tests - Chrome" finished-at="2024-09-04T03:19:08 EEST" duration-ms="12932">
+      <class name="com.example.Tests.web.RegistrationPageTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:18:55 EEST" name="setUp" finished-at="2024-09-04T03:18:57 EEST" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:18:57 EEST" name="beforeClass" finished-at="2024-09-04T03:18:57 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeEachTestcase()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:18:57 EEST" name="beforeEachTestcase" finished-at="2024-09-04T03:18:58 EEST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestcase -->
+        <test-method signature="checkVisibilityOfRegistrationFormElements()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:18:58 EEST" name="checkVisibilityOfRegistrationFormElements" finished-at="2024-09-04T03:18:58 EEST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVisibilityOfRegistrationFormElements -->
+        <test-method is-config="true" signature="beforeEachTestcase()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:18:58 EEST" name="beforeEachTestcase" finished-at="2024-09-04T03:18:58 EEST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestcase -->
+        <test-method signature="testRegistrationWithInValidData()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:18:58 EEST" name="testRegistrationWithInValidData" finished-at="2024-09-04T03:19:01 EEST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithInValidData -->
+        <test-method is-config="true" signature="beforeEachTestcase()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:19:01 EEST" name="beforeEachTestcase" finished-at="2024-09-04T03:19:02 EEST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestcase -->
+        <test-method signature="testRegistrationWithValidData()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:19:02 EEST" name="testRegistrationWithValidData" finished-at="2024-09-04T03:19:08 EEST" duration-ms="6349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.web.RegistrationPageTests@7d94beb9]" started-at="2024-09-04T03:19:08 EEST" name="tearDown" finished-at="2024-09-04T03:19:08 EEST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.web.RegistrationPageTests -->
+    </test> <!-- Web Tests - Chrome -->
+  </suite> <!-- UserTests -->
+</testng-results>

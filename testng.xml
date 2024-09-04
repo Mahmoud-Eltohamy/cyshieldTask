@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UserTests" parallel="false">
+    <test name="API Tests">
+        <classes>
+            <class name="com.example.Tests.api.UserTests" />
+        </classes>
+    </test>
+
+    <test name="Web Tests - Fireforx">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.example.Tests.web.RegistrationPageTests"></class>
+        </classes>
+    </test>
+
+    <test name="Web Tests - Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.example.Tests.web.RegistrationPageTests"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.testng.reporters.JUnitXMLReporter" />
+    </listeners>
+
+</suite>

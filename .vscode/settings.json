@@ -1,0 +1,8 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "restassured",
+        "testng"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}

@@ -1,0 +1,17 @@
+com\example\framework\web\pages\HomePage.class
+com\example\framework\api\Config.class
+com\example\framework\web\utilities\PropertiesFileManager.class
+com\example\framework\web\utilities\JSONFileManager.class
+com\example\framework\web\pages\TestScenarioPage.class
+com\example\framework\web\drivers\DriverFactory.class
+com\example\framework\web\drivers\DriverFactory$BrowserType.class
+com\example\framework\web\pages\RegistrationPage.class
+com\example\Tests\web\BaseTests.class
+com\example\Tests\web\RegistrationPageTests.class
+com\example\framework\web\actions\PageActions.class
+com\example\framework\web\pages\RegistrationPage$Gender.class
+com\example\Tests\api\UserTests.class
+com\example\framework\web\utilities\CSVFileManager.class
+com\example\framework\api\BaseSpecs.class
+com\example\framework\api\UserOperations.class
+com\example\framework\web\pages\LoginPage.class

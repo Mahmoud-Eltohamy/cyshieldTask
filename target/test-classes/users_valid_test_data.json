@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "userId": "firstUser",
+      "password": "pass123",
+      "name": "JohnDoe",
+      "address": "123MainStAnytown",
+      "country": "Australia",
+      "zipCode": "12345",
+      "email": "johndoe@example.com",
+      "sex": "Male",
+      "english": true,
+      "about": "Sample user description"
+    },
+    {
+      "userId": "secondUser",
+      "password": "pass456",
+      "name": "JaneSmith",
+      "address": "456ElmStOthertown",
+      "country": "Canada",
+      "zipCode": "67890",
+      "email": "janesmith@example.com",
+      "sex": "Female",
+      "english": false,
+      "about": "Another sample user description"
+    },
+    {
+      "userId": "thirdUser",
+      "password": "pass789",
+      "name": "AliceJohnson",
+      "address": "789PineStSometown",
+      "country": "India",
+      "zipCode": "11223",
+      "email": "alicejohnson@example.com",
+      "sex": "Female",
+      "english": true,
+      "about": "Yet another sample user description"
+    }
+  ]
+}

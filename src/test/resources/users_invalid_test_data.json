@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "userId": " ",
+      "password": "pass123",
+      "name": "John Doe",
+      "address": "123 Main St, Anytown",
+      "country": "Canada",
+      "zipCode": "12345",
+      "email": "johndoe@example.com",
+      "sex": "Male",
+      "english": true,
+      "about": "Sample user description"
+    },
+    {
+      "userId": "user222",
+      "password": "pa",
+      "name": "Jane Smith",
+      "address": "456 Elm St, Othertown",
+      "country": "USA",
+      "zipCode": "67890",
+      "email": "janesmith@example.com",
+      "sex": "Female",
+      "english": false,
+      "about": "Another sample user description"
+    },
+    {
+      "userId": "user3",
+      "password": "pass789",
+      "name": " ",
+      "address": "789 Pine St, Sometown",
+      "country": "USA",
+      "zipCode": "",
+      "email": "alicejohnson@example.com",
+      "sex": "Female",
+      "english": true,
+      "about": "Yet another sample user description"
+    },
+    {
+      "userId": "user3",
+      "password": "pass789",
+      "name": "Jane Smith",
+      "address": " ",
+      "country": "Russia",
+      "zipCode": "test",
+      "email": "alicejohnson@example.com",
+      "sex": "Female",
+      "english": true,
+      "about": "Yet another sample user description"
+    }
+  ]
+}
